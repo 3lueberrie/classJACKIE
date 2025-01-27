@@ -40,7 +40,7 @@ header .search input {
     padding: 5px;
     font-size: 14px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 10px;
 }
 
 main {
@@ -107,7 +107,7 @@ main .right form input {
     font-size: 14px;
     flex: 1;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 10px;
 }
 
 main .right form button {
@@ -116,7 +116,7 @@ main .right form button {
     color: white;
     background-color: black;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -142,6 +142,10 @@ main .right .decorative-elements .star {
     height: auto;
 }
 
+main .img p {
+    font-size: 16px;
+    font-weight: bolder;
+}
 
 main .img .f {
     justify-content: center;
@@ -155,7 +159,7 @@ main .img .g {
     justify-content: center;
     position: absolute;
     top: 20%;
-    left: 75%;
+    left: 73%;
     z-index: -1;
 
 } 
@@ -163,7 +167,7 @@ main .img .h {
     justify-content: center;
     position: absolute;
     top: 20%;
-    left: 78%;
+    left: 76%;
     z-index: -1;
 
 } 
@@ -171,7 +175,7 @@ main .img .i {
     justify-content: center;
     position: absolute;
     top: 20%;
-    left: 81%;
+    left: 79%;
     z-index: -1;
 
 } 

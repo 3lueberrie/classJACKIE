@@ -1,0 +1,207 @@
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #008000, #000);
+  color: white;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo h1 {
+  font-size: 24px;
+  color: limegreen;
+  text-shadow: 2px 2px 4px #000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: limegreen;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.hero h2 {
+  font-size: 3rem;
+  color: limegreen;
+  text-shadow: 3px 3px 6px black;
+}
+
+.hero p {
+  margin: 20px 0;
+  font-size: 1.2rem;
+}
+
+.hero button {
+  background: limegreen;
+  color: black;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.hero button:hover {
+  transform: scale(1.1);
+}
+
+/* Section Styling */
+section {
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 1200px;
+  border-radius: 10px;
+  background: rgba(0, 128, 0, 0.8);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: limegreen;
+}
+
+p, ul, form {
+  font-size: 1rem;
+}
+
+ul {
+  list-style: circle;
+  padding-left: 20px;
+}
+
+/* Awards Section */
+.awards-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.awards-container article {
+  width: 30%;
+  padding: 10px;
+  background: black;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.awards-container article:hover {
+  transform: translateY(-10px);
+  transition: 0.3s ease-in-out;
+}
+
+/* Gallery Section */
+.gallery-container {
+  display: flex;
+  gap: 15px;
+}
+
+.gallery-item img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.6);
+}
+
+/* Music Player Section */
+#player {
+  text-align: center;
+}
+
+#player button {
+  margin: 5px;
+  padding: 10px 15px;
+  background: limegreen;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#player button:hover {
+  background: black;
+  color: limegreen;
+  border: 1px solid limegreen;
+}
+
+/* Contact Section */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 5px;
+  color: limegreen;
+}
+
+form input, form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid limegreen;
+  border-radius: 5px;
+  background: black;
+  color: white;
+}
+
+form button {
+  padding: 10px;
+  background: limegreen;
+  border: none;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: black;
+  color: limegreen;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  color: limegreen;
+}
+

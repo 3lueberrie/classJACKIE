@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glow-button {
+    background-color: black;
+    color: white;
+    border: 2px solid yellow;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    outline: none;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.glow-button:hover {
+    box-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 40px yellow;
+    border-color: yellow;
+}
+

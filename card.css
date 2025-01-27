@@ -1,0 +1,25 @@
+/* card.css */
+.box1{
+    height: 250px;
+    width: 250px;
+    background: black;
+    position: absolute;
+}
+
+.box2{
+    height: 100px;
+    width: 100px;
+    background: red;
+    position: relative;
+    top: 80px;
+    left: 80px;
+}
+
+.box3{
+    height: 50px;
+    width: 50px;
+    background: blue;
+    position: absolute;
+    bottom : 130px;
+    left: 120px;
+}

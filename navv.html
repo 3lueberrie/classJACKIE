@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Form</title>
+    <link rel="stylesheet" href="navv.css">
+</head>
+<body>
+    <form action="#" method="post">
+        <label for="name">Name :</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="mobile">Mobile No. :</label>
+        <input type="tel" id="mobile" name="mobile" required>
+        
+        <label for="service">Service You Want :</label>
+        <select id="service" name="service" required>
+            <option value="" disabled selected>--Our Services--</option>
+            <option value="service1">Service 1</option>
+            <option value="service2">Service 2</option>
+            <option value="service3">Service 3</option>
+        </select>
+        
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

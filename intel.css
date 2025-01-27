@@ -1,0 +1,177 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #000;
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header .search input {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+main {
+    display: flex;
+    margin: 50px;
+    position: relative;
+}
+
+main .left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+main .left .image-container {
+    position: relative;
+    display: inline-block;
+}
+
+main .left img {
+    max-width: 60%;
+    
+    
+}
+
+main .left .grid-lines {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    width: 350px; 
+    height: 300px;
+    z-index: -1;
+}
+
+main .right {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+}
+
+main .right h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+main .right p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+main .right form {
+    display: flex;
+    gap: 10px;
+}
+
+main .right form input {
+    padding: 10px;
+    font-size: 14px;
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+main .right form button {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+main .right .decorative-elements {
+    position: absolute;
+    top: -50px;
+    right: 20px;
+}
+
+main .right .decorative-elements .globe {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    width: 60px; 
+    height: auto;
+}
+
+main .right .decorative-elements .star {
+    position: absolute;
+    bottom: -20px;
+    right: -10px;
+    width: 30px; 
+    height: auto;
+}
+
+
+main .img .f {
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    z-index: -1;
+
+} 
+main .img .g {
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    left: 75%;
+    z-index: -1;
+
+} 
+main .img .h {
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    left: 78%;
+    z-index: -1;
+
+} 
+main .img .i {
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    left: 81%;
+    z-index: -1;
+
+} 
